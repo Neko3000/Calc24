@@ -1,0 +1,41 @@
+﻿<Window x:Class="Calc24.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Calc24"
+        mc:Ignorable="d"
+        Name="EnterMainWindow"
+        Title="MainWindow" ResizeMode="NoResize" SizeToContent="WidthAndHeight" Background="White" BorderBrush="#FF2C2C2C" BorderThickness="1,0,1,1" AllowsTransparency="True" WindowStyle="None">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <DockPanel Name="title" Grid.Row="0" Height="auto" Background="#FF232323" MouseDown="title_MouseDown">
+            <Button Name="close" Width="15" Height="15" Margin="3,3" HorizontalAlignment="Right" Background="#FFEE3E3E" BorderBrush="{x:Null}" Click="close_Click"></Button>
+        </DockPanel>
+        <Label Grid.Row="1" Margin="20,60,0,0" Grid.ColumnSpan="2" Foreground="Black">模式选择</Label>
+        <StackPanel Grid.Row="2" Margin="0,0,0,75" Orientation="Horizontal" Grid.ColumnSpan="2">
+            <Button Width="200" Height="100" Margin="50,10" Click="RandomModeButton_Click" Background="#FF232323" Foreground="White" BorderBrush="Black">无限制模式</Button>
+            <Button Width="200" Height="100" Margin="50,10" Click="ChallengeModeButton_Click" BorderBrush="Black" Background="#FF232323" Foreground="White">挑战模式</Button>
+        </StackPanel>
+    </Grid>
+    <Window.Triggers>
+
+        <EventTrigger SourceName="EnterMainWindow" RoutedEvent="Window.Loaded">
+            <BeginStoryboard Name="OpacityUp">
+                <Storyboard>
+                    <DoubleAnimation Storyboard.TargetName="EnterMainWindow" Storyboard.TargetProperty="Opacity" From="0" To="100" Duration="0:0:8" BeginTime="0:0:0">
+                        <DoubleAnimation.EasingFunction>
+                            <PowerEase EasingMode="EaseIn"></PowerEase>
+                        </DoubleAnimation.EasingFunction>
+                    </DoubleAnimation>
+                </Storyboard>
+            </BeginStoryboard>
+        </EventTrigger>
+
+    </Window.Triggers>
+</Window>

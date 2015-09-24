@@ -1,0 +1,41 @@
+﻿<Window x:Class="Calc24.Keyboard"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Calc24"
+        mc:Ignorable="d"
+        Title="Keyboard" ResizeMode="NoResize" SizeToContent="WidthAndHeight" AllowsTransparency="True" WindowStyle="None" Background="#FF3C3C3C" >
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Button Grid.Row="0" Grid.Column="0" Width="30" Height="30" Margin="5" Background="#FF1F1F1F" BorderThickness="0" Foreground="White" Click="InputData">7</Button>
+        <Button Grid.Row="0" Grid.Column="1" Width="30" Height="30" Margin="5" Background="#FF1F1F1F" BorderThickness="0" Foreground="White" Click="InputData">8</Button>
+        <Button Grid.Row="0" Grid.Column="2" Width="30" Height="30" Margin="5" Background="#FF1F1F1F" BorderThickness="0" Foreground="White" Click="InputData">9</Button>
+        <Button Grid.Row="0" Grid.Column="3" Width="30" Height="30" Margin="5" Background="#FF1F1F1F" BorderThickness="0" Foreground="White" Click="InputData">Del</Button>
+        <Button Grid.Row="1" Grid.Column="0" Width="30" Height="30" Margin="5" Background="#FF1F1F1F" BorderThickness="0" Foreground="White" Click="InputData">4</Button>
+        <Button Grid.Row="1" Grid.Column="1" Width="30" Height="30" Margin="5" Background="#FF1F1F1F" BorderThickness="0" Foreground="White" Click="InputData">5</Button>
+        <Button Grid.Row="1" Grid.Column="2" Width="30" Height="30" Margin="5" Background="#FF1F1F1F" BorderThickness="0" Foreground="White" Click="InputData">6</Button>
+        <Button Grid.Row="1" Grid.Column="3" Grid.RowSpan="2" Width="30" Height="70" Margin="5" Background="#FF1F1F1F" BorderThickness="0" Foreground="White" Click="InputData">0</Button>
+        <Button Grid.Row="2" Grid.Column="0" Width="30" Height="30" Margin="5" Background="#FF1F1F1F" BorderThickness="0" Foreground="White" Click="InputData">1</Button>
+        <Button Grid.Row="2" Grid.Column="1" Width="30" Height="30" Margin="5" Background="#FF1F1F1F" BorderThickness="0" Foreground="White" Click="InputData">2</Button>
+        <Button Grid.Row="2" Grid.Column="2" Width="30" Height="30" Margin="5" Background="#FF1F1F1F" BorderThickness="0" Foreground="White" Click="InputData">3</Button>
+        <Button Grid.Row="3" Grid.Column="0" Width="30" Height="30" Margin="5" Background="#FF1F1F1F" BorderThickness="0" Foreground="White" Click="InputData">+</Button>
+        <Button Grid.Row="3" Grid.Column="1" Width="30" Height="30" Margin="5" Background="#FF1F1F1F" BorderThickness="0" Foreground="White" Click="InputData">-</Button>
+        <Button Grid.Row="3" Grid.Column="2" Width="30" Height="30" Margin="5" Background="#FF1F1F1F" BorderThickness="0" Foreground="White" Click="InputData">*</Button>
+        <Button Grid.Row="3" Grid.Column="3" Width="30" Height="30" Margin="5" Background="#FF1F1F1F" BorderThickness="0" Foreground="White" Click="InputData">/</Button>
+        <Button Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2" Width="70" Height="30" Margin="5" Background="#FF1F1F1F" BorderThickness="0" Foreground="White" Click="InputData">(</Button>
+        <Button Grid.Row="4" Grid.Column="2" Grid.ColumnSpan="2" Width="70" Height="30" Margin="5" Background="#FF1F1F1F" BorderThickness="0" Foreground="White" Click="InputData">)</Button>
+    </Grid>
+</Window>

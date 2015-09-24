@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Levels>
+  <SingleLevel>
+    <LevelName>1</LevelName>
+    <ProblemCount>3</ProblemCount>
+    <ProblemList>
+      <Problem>5A5A5A1</Problem>
+      <Problem>2A7A10A10</Problem>
+      <Problem>2A8A8A9</Problem>
+    </ProblemList>
+  </SingleLevel>
+</Levels>
