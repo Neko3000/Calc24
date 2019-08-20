@@ -8,7 +8,7 @@ Cal24 is a 24 points game based on windows.</br>
 It delivers you 4 cards, and what you need to do is find the solution make them equal 24.
 
 ## Statement
-This was a assignment project in Software-Engineering Class finished by myself.
+This was a assignment project in Software-Engineering Class finished in 2015.
 
 ## How to use
 <p align="center"> 
