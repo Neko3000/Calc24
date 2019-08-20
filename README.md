@@ -5,7 +5,7 @@
 ![Version: v0.95](https://img.shields.io/badge/version-v0.90-lightgrey)
 
 Cal24 is a 24 points game based on windows.</br>
-It delivers you 4 cards, and what you need to do is find the solution make them equal 24.
+It delivers you 4 poke cards, and what you need to do is finding the solution to make them equal to 24.
 
 ## Statement
 This was a assignment project in Software-Engineering Class finished in 2015.
