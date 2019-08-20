@@ -1,5 +1,5 @@
 # Calc24
-![License: MIT](https://img.shields.io/github/license/Neko3000/StarryTarget)
+![License: MIT](https://img.shields.io/github/license/Neko3000/Calc24)
 ![Platforms: Windows](https://img.shields.io/badge/Platform-Windows-lightgrey)
 ![Language: C#](https://img.shields.io/badge/language-C%23-blue)
 ![Version: v0.95](https://img.shields.io/badge/version-v0.95-lightgrey)
