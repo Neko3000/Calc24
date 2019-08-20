@@ -2,7 +2,7 @@
 ![License: MIT](https://img.shields.io/github/license/Neko3000/StarryTarget)
 ![Platforms: Windows](https://img.shields.io/badge/Platform-Windows-lightgrey)
 ![Language: C#](https://img.shields.io/badge/language-C%23-blue)
-![Version: v0.95](https://img.shields.io/badge/version-v0.90-lightgrey)
+![Version: v0.95](https://img.shields.io/badge/version-v0.95-lightgrey)
 
 Cal24 is a 24 points game based on windows.</br>
 It delivers you 4 poke cards, and what you need to do is finding the solution to make them equal to 24.
