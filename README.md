@@ -9,7 +9,7 @@ It delivers you 4 cards, and what you need to do is find the solution make them 
 
 ## How to use
 <p align="center"> 
-<img width="300" src="https://github.com/Neko3000/Calc24/raw/master/description/p1.png" alt="screenshot">
+<img src="https://github.com/Neko3000/Calc24/raw/master/description/p1.png" alt="screenshot">
 </p>
 
 ## Features
